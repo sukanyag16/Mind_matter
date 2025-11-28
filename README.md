@@ -1,32 +1,31 @@
-# Mind Matter Frontend
+MindMatter is a mental well-being platform designed to help users track their mood, journal entries, and maintain mental health. This repository contains both the **backend** and **frontend** code for the platform.
+
+---
 
 ## Project Overview
-This is the initial frontend implementation for **Mind Matter**, a mental well-being platform designed to help users log moods, explore wellness activities, and access mental health resources.
 
-## Technologies Used
-- **HTML** for page structure
-- **CSS** for styling and layout
-- **JavaScript** for basic interactivity
+MindMatter provides users with:
 
-## File Structure
-```
-MindMatter_Frontend/
-├── index.html       # Main page layout
-├── style.css        # Page styling
-├── script.js        # Mood form submission logic
-├── README.md        # Project description and instructions
-```
+- User authentication and secure account management  
+- Ability to create, view, edit, and delete journal entries  
+- A centralized backend with MongoDB for data persistence  
+- A responsive frontend interface for easy interaction  
 
-## Features
-- Simple navigation menu
-- Mood logging form with score and notes
-- Static list of self-care activities
-- External links to mental health resources
+The project is built with **Node.js**, **Express**, and **MongoDB** for the backend, and **React** for the frontend. CORS and global error handling are included for robust API communication.
 
-## How to Run
-1. Clone or download this repository.
-2. Open `index.html` in any web browser.
-3. Interact with the mood form and view static content.
+---
+
+## Backend
+
+**Technologies:** Node.js, Express, MongoDB, Mongoose  
+
+### Features
+
+- User authentication (`/auth` routes)  
+- Journal management (`/journal` routes)  
+- MongoDB database connection  
+- Global error handling middleware  
+- CORS enabled for cross-origin requests  
 
 ## Future Enhancements
 - Connect mood log to backend database
